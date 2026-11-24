@@ -42,14 +42,14 @@ MENU_SECTIONS = [
 ]
 
 FOOTER = f"""<footer>
-  <div class="footline">
+  <div class="wrap"><div class="footline">
     <div class="fnote">
       <strong>{NAME}</strong> · Pan-Asian restaurant · Short North
       <span>{ADDR}</span>
       <span><a href="tel:{PHONE_T}">{PHONE_D}</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a> · <a href="{RESY}" rel="noopener">Reserve on Resy</a></span>
     </div>
     <div class="fcopy">© 2026 {NAME}</div>
-  </div>
+  </div></div>
 </footer>"""
 
 def head(title, desc, path, ogdesc=None):
