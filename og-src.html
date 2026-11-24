@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Litchi og</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0}
+body{width:1200px;height:630px;background:linear-gradient(150deg,#221327 0%,#2e1a33 62%,#3a2140 100%);color:#f4e9ee;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;overflow:hidden;position:relative}
+.pad{position:absolute;inset:0;padding:64px 72px;display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center}
+.eyebrow{font-size:19px;letter-spacing:.24em;text-transform:uppercase;color:#c8a865;margin:0 0 18px}
+h1{font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-size:76px;line-height:1.06;margin:0 0 20px;color:#fdf6f8;letter-spacing:-.01em}
+h1 em{font-style:italic;color:#ffd9de}
+.tag{font-size:26px;color:#e3d2da;margin:0 0 34px;max-width:640px}
+.strip{display:flex;gap:26px;flex-wrap:wrap;font-size:21px;color:#c9b6c0;margin:0}
+.strip b{color:#ffd9de;font-weight:600}
+.strip .ph{color:#c8a865;font-variant-numeric:tabular-nums}
+.dot{display:inline-block;width:16px;height:16px;border-radius:50%;background:#e2546b;margin-left:14px;vertical-align:2px}
+.stack{position:relative;height:330px;width:400px}
+.puff{position:absolute;left:6%;right:6%;border-radius:50%;background:linear-gradient(180deg,#f7e7ea,#eec6cd 58%,#e7b2bb);box-shadow:0 14px 34px rgba(10,4,10,.5), inset 0 -8px 18px rgba(140,58,82,.35)}
+.p1{bottom:64px;height:86px;transform:scale(.84)}
+.p2{bottom:26px;height:98px;transform:scale(.93)}
+.p3{bottom:-16px;height:108px}
+.butter{position:absolute;bottom:162px;left:40%;width:64px;height:46px;border-radius:10px;background:linear-gradient(160deg,#f6e3a8,#dfc074);box-shadow:0 8px 18px rgba(10,4,10,.5);transform:rotate(4deg)}
+.halo{position:absolute;inset:auto -140px -180px auto;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle at 35% 35%,rgba(255,217,222,.14),transparent 65%)}
+.rule{position:absolute;left:72px;right:72px;bottom:44px;height:1px;background:linear-gradient(90deg,#c8a865,transparent)}
+</style>
+</head>
+<body>
+<div class="halo"></div>
+<div class="pad">
+  <div>
+    <p class="eyebrow">Short North · Columbus, Ohio<span class="dot"></span></p>
+    <h1>Litchi<br><em>soufflé pancakes</em>, brunch &amp; cocktails</h1>
+    <p class="tag">Columbus’ first Japanese-style soufflé pancakes — inches-thick, jiggly, on High Street.</p>
+    <p class="strip"><b>940 N High St, Columbus OH 43201</b><span class="ph">(614) 456-7151</span><span>Reserve on Resy</span></p>
+  </div>
+  <div class="stack">
+    <div class="puff p3"></div>
+    <div class="puff p2"></div>
+    <div class="puff p1"></div>
+    <div class="butter"></div>
+  </div>
+</div>
+<div class="rule"></div>
+</body>
+</html>
